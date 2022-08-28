@@ -66,3 +66,33 @@ body {
     }
   }
 /* End of Pre-Loading Page */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px !important;;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+    width: 10px !important;;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: transparent;
+      /* To using calor pink */
+      /* background: #FF0099; */
+      width: 10px !important;
+    }
+    
+    /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FF0099;
+    width: 10px !important;;
+  }
+
+  #text_card::-webkit-scrollbar-track {
+    background: #1B0C44;
+    width: 10px !important;;
+  }
